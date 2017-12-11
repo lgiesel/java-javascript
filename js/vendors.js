@@ -6,7 +6,7 @@ $().ready(function() {
 			console.log(vendors);
 			buildTable(vendors);
 		});
-	console.log("After vendors");
+	// console.log("After vendors");
 
 	$("#btnVendor").click(pickVendor);
 	console.log("after ready.pick vendor");

@@ -42,6 +42,7 @@ function getProductByID(id) {
 }
 
 function populateProductDetails(product){
+	
 	var prodDetails = $("#prdDtlsDiv");
 	prodDetails.empty();
 	var item = "";
