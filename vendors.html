@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  <link href="css/vendors.css rel="stylesheet" type="text/css">
+  <script src="js/vendors.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<div>
+    <table class="table table-responsive-sm table-striped">
+  	  <thead>
+  	    <tr>
+  	      <!-- <th style="width:50px;">ID</th> -->
+          <th>ID</th>
+  	      <th>Code</th>
+  	      <th>Name</th>
+  	      <th>City/State</th>
+  	      <th>Phone</th>
+  	      <th>Email</th>
+  	      <th>Recommended</th>
+  	    </tr>
+  	  </thead>
+  	    <tbody id="vendors">
+    		</tbody>
+  	</table>
+	</div>
+
+  <div>
+    <div class="col-sm-3">
+     <div class="input-group">
+       <input id="vendor" type="text" class="form-control" placeholder="Enter vendor ID">
+          <span class="input-group-btn">
+       		<button id="btnVendor" class="btn btn-secondary" type="button">Pick Vendor</button>
+	     </span>
+	   </div>
+	 </div>
+  </div>
+
+  <div id="vendorDtls">
+    <form id="vendordtlsform" name="vendorDtlsForm">
+      <div id="vendorDtlsDiv">
+      </div>
+    </form>
+  </div>
+
+ </body>
+</html>

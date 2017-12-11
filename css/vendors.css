@@ -1,0 +1,19 @@
+body {
+	font-family: Arial; font-size: 18px; 
+	border:0; margin: 10px; padding: 20;
+}
+
+input {
+	color:lightgray;
+}
+
+td {
+	min-width: 5px;
+	max-width: 5px;
+}
+
+/*body {
+	font: normal normal normal 12pt/14.4pt Tahoma, Arial, sans-serif;
+	border:0; margin: 10px; padding: 0;
+}
+*/
